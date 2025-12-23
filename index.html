@@ -21,7 +21,7 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Mais antigo</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Mais antigo</a>
   {% else %}
     <span class="pagination-item older">Mais antigo</span>
   {% endif %}
@@ -29,7 +29,7 @@ title: Home
     {% if paginator.page == 2 %}
       <a class="pagination-item newer" href="{{ site.baseurl }}">Mais recente</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Mais recente</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Mais recente</a>
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Mais recente</span>
