@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: rcsilva83/rcsilva83.github.io
 publish_mode: editorial_workflow
 media_folder: "images"
 collections:
