@@ -1,0 +1,7 @@
+items:
+  - name: Home
+    link: /
+  - name: Sobre o blog
+    link: /about/
+  - name: DeGoogle
+    link: /degoogle/
